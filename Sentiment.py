@@ -11,8 +11,6 @@ import tweepy
 
 from textblob import TextBlob
 
-import nltk
-nltk.download()
 
 class MyApp():
     def __init__(self, title=None, author="", date="" ):
@@ -46,7 +44,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth) 
 
 # Using the API object to get tweets from your timeline, and storing it in a variable called public_tweets
-public_tweets = api.search('Salesforce')
+public_tweets = api.search('SGO48')  #You can use whatever hashtag you want, mine is a girlband
 # foreach through all tweets pulled
 for tweet in public_tweets:
    # printing the text stored inside the tweet object
