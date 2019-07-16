@@ -11,8 +11,6 @@ import tweepy
 
 from textblob import TextBlob
 
-import nltk
-nltk.download()
 
 class MyApp():
     def __init__(self, title=None, author="", date="" ):
