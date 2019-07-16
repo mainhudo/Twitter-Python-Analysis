@@ -33,10 +33,10 @@ yourName = input("Please enter your Twitter handle with @ : ")
 
 # Store OAuth authentication credentials in relevant variables
 
-access_token = "713422271528964096-R9Jg8MDbcQdQ4zv5nfsmke0cBUie0FF"
-access_token_secret = "FhQMCTLauSNeGONM7lMU1rY22zfoVgnt5BeEQGxQ46Khu"
-consumer_key = "V6Rp0SDqzQxI0EGTMlcCE6wX5"
-consumer_secret = "0wnO5LPfEW6uSpiMPlpL5YxXYXyAfs0zazSt5IoR8N7PXWGogI"
+access_token = "XXX"  #Confidential information
+access_token_secret = "XXX"
+consumer_key = "XXX"
+consumer_secret = "XXX"
 
 # Creating the authentication object
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
