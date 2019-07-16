@@ -33,7 +33,7 @@ yourName = input("Please enter your Twitter handle with @ : ")
 
 # Store OAuth authentication credentials in relevant variables
 
-access_token = "XXX"  #Confidential information
+access_token = "XXX"  #Confidential information only applies to my tweets
 access_token_secret = "XXX"
 consumer_key = "XXX"
 consumer_secret = "XXX"
