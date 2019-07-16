@@ -1,2 +1,2 @@
 # Twitter-Python-Analysis
-code that works for sentiment analysis, streaming, timeline display
+This is a code based on reading Stackoverflow and was tweaked.
